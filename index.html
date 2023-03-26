@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <script defer src="./JS/button.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <header>
+        <h2>Tipos de botão</h2>
+        <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe abaixo um exemplo de tipos e propriedades.</p>
+      </header>
+      <main>
+        <div class="row-title">
+          <span></span>
+          <span>DEFAULT</span>
+          <span>HOVER</span>
+          <span>FOCUS</span>
+          <span>DISABLED</span>
+          <span>LOADING</span>
+          <span>MOVABLE</span>
+        </div>
+        <div class="align-content">
+          <div class="column-title">
+            <span>BOTÃO PRIMÁRIO</span>
+            <span>BOTÃO SECUNDÁRIO</span>
+            <span>BOTÃO TERCIÁRIO</span>
+          </div>
+          <div class="content">
+            <div class="content-column">
+              <button class="">DEFAULT PRIMARY</button>
+              <button class="hover">HOVER PRIMARY</button>
+              <button class="focus">FOCUS PRIMARY</button>
+              <button class="disabled">DISABLED PRIMARY</button>
+              <button class="loading"><img src="./assets/loading.svg" alt="loading image"> LOADING PRIMARY</button>
+              <button class="movable"><img src="./assets/reorder-three.svg" alt="movable icon">MOVABLE PRIMARY</button>
+            </div>
+            <div class="content-column">
+              <button class="secondary">DEFAULT SECONDARY</button>
+              <button class="secondary hover">HOVER SECONDARY</button>
+              <button class="secondary focus">FOCUS SECONDARY</button>
+              <button class="secondary disabled">DISABLED SECONDARY</button>
+              <button class="secondary loading"><img src="./assets/loading.svg" alt="loading image">LOADING SECONDARY</button>
+              <button class="secondary movable"><img src="./assets/reorder-three.svg" alt="movable icon">MOVABLE SECONDARY</button>
+            </div>
+            <div class="content-column">
+              <button class="tertiary">DEFAULT TERTIARY</button>
+              <button class="tertiary">HOVER TERTIARY</button>
+              <button class="tertiary focus">FOCUS TERTIARY</button>
+              <button class="tertiary disabled">DISABLED TERTIARY</button>
+              <button class="tertiary loading"><img src="./assets/loading.svg" alt="loading image">LOADING TERTIARY</button>
+              <button class="tertiary movable"><img src="./assets/reorder-three.svg" alt="movable icon"> MOVABLE TERTIARY</button>
+            </div>
+            
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="right">
+      <aside>
+        <h2>Teste os botões</h2>
+        <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
+        <div class="buttons-layout">
+          <button onclick="changeButton(event)">EXAMPLE</button>
+          <button onclick="changeButton(event)">EXAMPLE</button>
+          <button onclick="changeButton(event)">EXAMPLE</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
