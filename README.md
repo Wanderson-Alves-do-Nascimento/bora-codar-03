@@ -2,8 +2,6 @@
 
 <p align="center">
   Projeto da comunidade Rocketseat onde semanalmente são lançados desafios semanalmente de layouts para mantermos a prática em dia.
-
-  Nesse desafio criamos um mostruário de tipos de botões com comportamentos diferentes.
 </p>
 
 <p align="center">
@@ -21,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Bora Codar 2" src="./assets/preview.jpg" width="100%">
+  <img alt="Bora Codar 03" src="./assets/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -35,11 +33,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para uso em cartão de visita online.
+Nesse desafio criamos um mostruário de botões com vários tipos de comportamentos diferentes e temas.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195050984449538256). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1197534710257750520). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## Melhorias
 Adicionei os comporatamentos esperados a um array com os nomes das classes para permitir que o mostruário altere o botão de exemplo ao clicar nele.
