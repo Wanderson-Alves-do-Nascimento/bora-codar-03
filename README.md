@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Bora Codar 03" src="../../blob/main/assets/preview.jpg" width="100%">
+  <img alt="Bora Codar 03" src="../../blob/main/assets/preview.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
